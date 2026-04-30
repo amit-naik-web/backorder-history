@@ -1,0 +1,8 @@
+cat > .gitignore << EOF
+node_modules/
+.env
+*.mtar
+mta_archives/
+.cdsrc-private.json
+gen/
+EOF

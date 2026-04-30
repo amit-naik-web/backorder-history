@@ -1,0 +1,28 @@
+{
+  "name": "backorder-history",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/hana": "^2.7.0",
+    "@sap/cds": "^9",
+    "@sap/hana-client": "^2.28.19",
+    "@sap/xssec": "^4.13.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana-cloud"
+      },
+      "auth": {
+        "kind": "dummy"
+      }
+    }
+  },
+  "private": true
+}
