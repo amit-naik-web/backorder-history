@@ -6,16 +6,6 @@
       "source": "^/odata/(.*)$",
       "destination": "backorder-history-srv",
       "authenticationType": "none"
-    },
-    {
-      "source": "^/resources/(.*)$",
-      "target": "https://ui5.sap.com/resources/$1",
-      "authenticationType": "none"
-    },
-    {
-      "source": "^/test-resources/(.*)$",
-      "target": "https://ui5.sap.com/test-resources/$1",
-      "authenticationType": "none"
     }
   ]
 }
