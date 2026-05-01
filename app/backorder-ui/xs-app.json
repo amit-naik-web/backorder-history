@@ -6,6 +6,11 @@
       "source": "^/odata/(.*)$",
       "destination": "backorder-history-srv",
       "authenticationType": "none"
+    },
+    {
+      "source": "^(.*)$",
+      "localDir": "webapp",
+      "authenticationType": "none"
     }
   ]
 }
