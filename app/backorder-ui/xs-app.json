@@ -1,11 +1,11 @@
 {
   "welcomeFile": "/index.html",
-  "authenticationMethod": "route",
+  "authenticationMethod": "none",
   "routes": [
     {
       "source": "^/odata/(.*)$",
       "destination": "backorder-history-srv",
-      "authenticationType": "xsuaa"
+      "authenticationType": "none"
     },
     {
       "source": "^/resources/(.*)$",
@@ -22,8 +22,7 @@
     {
       "source": "^(.*)$",
       "target": "$1",
-      "service": "html5-apps-repo-rt",
-      "authenticationType": "xsuaa"
+      "authenticationType": "none"
     }
   ]
 }
