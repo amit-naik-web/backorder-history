@@ -41,12 +41,9 @@ modules:
     parameters:
       disk-quota: 256M
       memory: 128M
-    env:
+    properties:
       destinations: >
-        [
-          {"name":"backorder-history-srv","url":"~{srv-api/srv-url}","forwardAuthToken":true},
-          {"name":"ui5cdn","url":"https://ui5.sap.com","forwardAuthToken":false}
-        ]
+        [{"name":"backorder-history-srv","url":"~{srv-api/srv-url}","forwardAuthToken":true},{"name":"ui5cdn","url":"https://ui5.sap.com","forwardAuthToken":false}]
     requires:
       - name: srv-api
       - name: backorder-history-xsuaa
