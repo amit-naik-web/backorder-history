@@ -26,7 +26,7 @@ sap.ui.define([
 
         _loadAll: async function () {
             try {
-                const res = await fetch("/odata/v4/back-order/searchBackOrders", {
+                const res = await fetch("https://994ae882trial-dev-backorder-history-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/back-order/searchBackOrders", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
@@ -135,7 +135,7 @@ sap.ui.define([
             };
 
             try {
-                const res = await fetch("/odata/v4/back-order/searchBackOrders", {
+                const res = await fetch("https://994ae882trial-dev-backorder-history-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/back-order/searchBackOrders", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(body)
