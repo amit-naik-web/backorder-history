@@ -29,16 +29,6 @@ module.exports = cds.service.impl(async function () {
                 .where({ soldTo });
             customer_IDs = customers.map(c => c.ID);
 
-            if (customer_IDs.length === 0) {
-                LOG.warn(`No customer found for soldTo: ${soldTo}`);
-                return {
-                    entries: [],
-                    currentPage,
-                    pageSize,
-                    totalPages: 0,
-                    totalResults: 0
-                };
-            }
         }
 
         // Step 2 — find shipTo IDs if shipTo array provided

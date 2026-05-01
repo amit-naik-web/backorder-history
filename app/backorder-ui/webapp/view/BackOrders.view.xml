@@ -3,125 +3,257 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
-    displayBlock="true">
-
-    <Page id="backOrdersPage" title="BackOrder History">
+    displayBlock="true"
+>
+    <Page
+        id="backOrdersPage"
+        title="BackOrder History"
+    >
         <customHeader>
             <Bar>
                 <contentLeft>
-                    <Title text="BackOrder History"/>
+                    <Title text="BackOrder History" />
                 </contentLeft>
             </Bar>
         </customHeader>
 
         <content>
             <!-- Search Panel -->
-            <Panel id="searchPanel" headerText="Search and Filter" expandable="true" expanded="true" class="sapUiSmallMargin">
-                <l:Grid defaultSpan="XL3 L3 M6 S12" class="sapUiSmallMarginBeginEnd">
-                    <l:content>
-                        <VBox>
-                            <Label text="Sold To (Customer No.)"/>
-                            <Input id="soldToInput" placeholder="e.g. 203800"/>
-                        </VBox>
-                        <VBox>
-                            <Label text="Search By"/>
-                            <Select id="searchBySelect">
-                                <items>
-                                    <core:Item xmlns:core="sap.ui.core" key="" text="-- Select --"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="orderNumber" text="Order Number"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="invoiceNumber" text="Invoice Number"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="poNumber" text="PO Number"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="itemNumber" text="Item Number"/>
-                                </items>
-                            </Select>
-                        </VBox>
-                        <VBox>
-                            <Label text="Search Value"/>
-                            <Input id="searchInput" placeholder="Search value"/>
-                        </VBox>
-                        <VBox>
-                            <Label text="From Date"/>
-                            <DatePicker id="fromDatePicker" displayFormat="yyyy-MM-dd" valueFormat="yyyy-MM-dd'T'HH:mm:ss'Z'"/>
-                        </VBox>
-                        <VBox>
-                            <Label text="To Date"/>
-                            <DatePicker id="toDatePicker" displayFormat="yyyy-MM-dd" valueFormat="yyyy-MM-dd'T'HH:mm:ss'Z'"/>
-                        </VBox>
-                        <VBox>
-                            <Label text="Sort By"/>
-                            <Select id="sortSelect">
-                                <items>
-                                    <core:Item xmlns:core="sap.ui.core" key="orderDate" text="Order Date"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="orderNumber" text="Order Number"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="itemNumber" text="Item Number"/>
-                                </items>
-                            </Select>
-                        </VBox>
-                        <VBox>
-                            <Label text="Direction"/>
-                            <Select id="dirSelect">
-                                <items>
-                                    <core:Item xmlns:core="sap.ui.core" key="desc" text="Descending"/>
-                                    <core:Item xmlns:core="sap.ui.core" key="asc" text="Ascending"/>
-                                </items>
-                            </Select>
-                        </VBox>
-                        <VBox>
-                            <Label text="Page Size"/>
-                            <StepInput id="pageSizeInput" min="1" max="100" value="12"/>
-                        </VBox>
-                    </l:content>
-                </l:Grid>
-                <Toolbar class="sapUiSmallMarginBeginEnd sapUiSmallMarginBottom">
-                    <Button id="searchBtn" text="Search" type="Emphasized" press=".onSearch" icon="sap-icon://search"/>
-                    <Button id="resetBtn" text="Reset" press=".onReset" icon="sap-icon://reset"/>
-                </Toolbar>
-            </Panel>
+<Panel id="searchPanel" headerText="Search and Filter" expandable="true" expanded="true" class="sapUiSmallMargin">
+    <content>
+        <l:Grid defaultSpan="XL4 L4 M6 S12" class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop">
+            <l:content>
+
+                <!-- Sold To -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Sold To (Customer No.)" design="Bold"/>
+                    <Input id="soldToInput"
+                        placeholder="e.g. 203800"
+                        change=".onSoldToChange"
+                        valueLiveUpdate="true"
+                        showClearIcon="true"/>
+                </VBox>
+
+                <!-- Ship To -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Ship To Location"/>
+                    <MultiComboBox id="shipToSelect"
+                        placeholder="Enter Sold To first"
+                        noDataText="Enter a Sold To number first">
+                    </MultiComboBox>
+                </VBox>
+
+                <!-- Search By + Value -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Search By"/>
+                    <Select id="searchBySelect" forceSelection="false">
+                        <items>
+                            <core:Item xmlns:core="sap.ui.core" key="" text="-- None --"/>
+                            <core:Item xmlns:core="sap.ui.core" key="orderNumber" text="Order Number (exact)"/>
+                            <core:Item xmlns:core="sap.ui.core" key="invoiceNumber" text="Invoice Number (exact)"/>
+                            <core:Item xmlns:core="sap.ui.core" key="poNumber" text="PO Number (partial)"/>
+                            <core:Item xmlns:core="sap.ui.core" key="itemNumber" text="Item Number (partial)"/>
+                        </items>
+                    </Select>
+                </VBox>
+
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Search Value"/>
+                    <Input id="searchInput"
+                        placeholder="Type search value..."
+                        showClearIcon="true"/>
+                </VBox>
+
+                <!-- From Date -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="From Date"/>
+                    <DatePicker id="fromDatePicker"
+                        displayFormat="dd MMM yyyy"
+                        valueFormat="yyyy-MM-dd'T'HH:mm:ss'Z'"
+                        placeholder="Select start date"/>
+                </VBox>
+
+                <!-- To Date -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="To Date"/>
+                    <DatePicker id="toDatePicker"
+                        displayFormat="dd MMM yyyy"
+                        valueFormat="yyyy-MM-dd'T'HH:mm:ss'Z'"
+                        placeholder="Select end date"/>
+                </VBox>
+
+                <!-- Sort By -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Sort By"/>
+                    <Select id="sortSelect">
+                        <items>
+                            <core:Item xmlns:core="sap.ui.core" key="orderDate"   text="Order Date"/>
+                            <core:Item xmlns:core="sap.ui.core" key="orderNumber" text="Order Number"/>
+                            <core:Item xmlns:core="sap.ui.core" key="itemNumber"  text="Item Number"/>
+                        </items>
+                    </Select>
+                </VBox>
+
+                <!-- Direction -->
+                <VBox class="sapUiSmallMarginBottom">
+                    <Label text="Sort Direction"/>
+                    <SegmentedButton id="dirSelect" selectedKey="desc">
+                        <items>
+                            <SegmentedButtonItem key="desc" text="Newest First" icon="sap-icon://sort-descending"/>
+                            <SegmentedButtonItem key="asc"  text="Oldest First" icon="sap-icon://sort-ascending"/>
+                        </items>
+                    </SegmentedButton>
+                </VBox>
+
+            </l:content>
+        </l:Grid>
+
+        <!-- Action Buttons -->
+        <HBox justifyContent="End" class="sapUiSmallMargin">
+            <Button id="resetBtn"
+                text="Reset"
+                icon="sap-icon://reset"
+                press=".onReset"
+                class="sapUiSmallMarginEnd"/>
+            <Button id="searchBtn"
+                text="Search"
+                type="Emphasized"
+                icon="sap-icon://search"
+                press=".onSearch"/>
+        </HBox>
+    </content>
+</Panel>
 
             <!-- KPI Summary -->
-            <HBox id="kpiBox" justifyContent="SpaceBetween" class="sapUiSmallMargin" visible="{= ${results>/totalResults} > 0}">
-                <items>
-                    <ObjectHeader title="{results>/totalResults}" intro="Total Results" compact="true"/>
-                    <ObjectHeader title="{results>/totalPages}" intro="Total Pages" compact="true"/>
-                    <ObjectHeader title="{results>/pageSize}" intro="Page Size" compact="true"/>
-                </items>
-            </HBox>
-
+<HBox id="kpiBox" justifyContent="SpaceBetween" class="sapUiSmallMargin" visible="{= ${results>/totalResults} > 0}">
+    <items>
+        <GenericTile header="Total Results" subheader="Back orders found" class="sapUiTinyMargin">
+            <tileContent>
+                <TileContent>
+                    <content>
+                        <NumericContent
+                            value="{results>/totalResults}"
+                            icon="sap-icon://sales-order"
+                            valueColor="None"/>
+                    </content>
+                </TileContent>
+            </tileContent>
+        </GenericTile>
+        <GenericTile header="Total Pages" subheader="Based on page size" class="sapUiTinyMargin">
+            <tileContent>
+                <TileContent>
+                    <content>
+                        <NumericContent
+                            value="{results>/totalPages}"
+                            icon="sap-icon://documents"
+                            valueColor="None"/>
+                    </content>
+                </TileContent>
+            </tileContent>
+        </GenericTile>
+        <GenericTile header="Page Size" subheader="Items per page" class="sapUiTinyMargin">
+            <tileContent>
+                <TileContent>
+                    <content>
+                        <NumericContent
+                            value="{results>/pageSize}"
+                            icon="sap-icon://list"
+                            valueColor="None"/>
+                    </content>
+                </TileContent>
+            </tileContent>
+        </GenericTile>
+<GenericTile header="Current Page" subheader="You are here" class="sapUiTinyMargin">
+    <tileContent>
+        <TileContent>
+            <content>
+                <NumericContent
+                    value="{= ${results>/currentPage} + 1}"
+                    icon="sap-icon://bookmark"
+                    valueColor="None"/>
+            </content>
+        </TileContent>
+    </tileContent>
+</GenericTile>
+    </items>
+</HBox>
             <!-- Results Table -->
-            <Panel id="resultsPanel" headerText="BackOrder Items" class="sapUiSmallMargin">
-                <Table id="backOrderTable" items="{results>/entries}" noDataText="Use search filters above to find back orders">
+            <Panel
+                id="resultsPanel"
+                headerText="BackOrder Items"
+                class="sapUiSmallMargin"
+            >
+                <Table
+                    id="backOrderTable"
+                    items="{results>/entries}"
+                    noDataText="Use search filters above to find back orders"
+                >
                     <headerToolbar>
                         <Toolbar>
-                            <Title text="Results ({results>/totalResults})"/>
-                            <ToolbarSpacer/>
-                            <Button id="prevBtn" icon="sap-icon://navigation-left-arrow" press=".onPrevPage" enabled="{= ${results>/currentPage} > 0}"/>
-                            <Text text="Page {results>/currentPage} of {results>/totalPages}"/>
-                            <Button id="nextBtn" icon="sap-icon://navigation-right-arrow" press=".onNextPage" enabled="{= ${results>/currentPage} &lt; ${results>/totalPages} - 1}"/>
+                            <Title text="Results ({results>/totalResults})" />
+                            <ToolbarSpacer />
+                            <Button
+                                id="prevBtn"
+                                icon="sap-icon://navigation-left-arrow"
+                                press=".onPrevPage"
+                                enabled="{= ${results>/currentPage} > 0}"
+                            />
+                            <Text text="Page {= ${results>/currentPage} + 1} of {results>/totalPages}"/>
+                            <Button
+                                id="nextBtn"
+                                icon="sap-icon://navigation-right-arrow"
+                                press=".onNextPage"
+                                enabled="{= ${results>/currentPage} &lt; ${results>/totalPages} - 1}"
+                            />
                         </Toolbar>
                     </headerToolbar>
                     <columns>
-                        <Column><Text text="Product Code"/></Column>
-                        <Column><Text text="ERP Order No."/></Column>
-                        <Column><Text text="Order Date"/></Column>
-                        <Column><Text text="Qty"/></Column>
-                        <Column><Text text="Dealer Price"/></Column>
-                        <Column><Text text="Total Price"/></Column>
-                        <Column><Text text="Currency"/></Column>
-                        <Column><Text text="Status"/></Column>
+                        <Column>
+                            <Text text="Product Code" />
+                        </Column>
+                        <Column>
+                            <Text text="ERP Order No." />
+                        </Column>
+                        <Column>
+                            <Text text="Order Date" />
+                        </Column>
+                        <Column>
+                            <Text text="Qty" />
+                        </Column>
+                        <Column>
+                            <Text text="Dealer Price" />
+                        </Column>
+                        <Column>
+                            <Text text="Total Price" />
+                        </Column>
+                        <Column>
+                            <Text text="Currency" />
+                        </Column>
+                        <Column>
+                            <Text text="Status" />
+                        </Column>
                     </columns>
                     <items>
-                        <ColumnListItem id="backOrderItem" press=".onItemPress" type="Navigation">
+                        <ColumnListItem
+                            id="backOrderItem"
+                            press=".onItemPress"
+                            type="Navigation"
+                        >
                             <cells>
-                                <Text text="{results>productCode}"/>
-                                <Text text="{results>erpOrderNumber}"/>
-                                <Text text="{results>orderDate}"/>
-                                <Text text="{results>quantity}"/>
-                                <Text text="{results>dealerPrice}"/>
-                                <Text text="{results>totalPrice}"/>
-                                <Text text="{results>currency}"/>
+                                <Text text="{results>productCode}" />
+                                <Text text="{results>erpOrderNumber}" />
+                                <Text text="{
+    path: 'results>orderDate',
+    formatter: '.formatter.formatDate'
+}"/>
+                                <Text text="{results>quantity}" />
+                                <Text text="{results>dealerPrice}" />
+                                <Text text="{results>totalPrice}" />
+                                <Text text="{results>currency}" />
                                 <ObjectStatus
-                                    text="{results>orderStatus}"
-                                    state="{= ${results>orderStatus} === '3' ? 'Success' : ${results>orderStatus} === '2' ? 'Warning' : 'Error'}"/>
+                                    text="{= ${results>orderStatus} === '3' ? 'Completed' : ${results>orderStatus} === '2' ? 'In Progress' : 'Open'}"
+                                    state="{= ${results>orderStatus} === '3' ? 'Success' : ${results>orderStatus} === '2' ? 'Warning' : 'Error'}"
+                                />
                             </cells>
                         </ColumnListItem>
                     </items>
@@ -129,5 +261,4 @@
             </Panel>
         </content>
     </Page>
-
 </mvc:View>

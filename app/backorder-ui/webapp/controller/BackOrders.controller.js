@@ -2,22 +2,63 @@ sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/json/JSONModel",
     "sap/m/MessageBox",
-    "sap/m/MessageToast"
-], function (Controller, JSONModel, MessageBox, MessageToast) {
+    "sap/m/MessageToast",
+    "backorder/app/backorderui/model/formatter"
+], function (Controller, JSONModel, MessageBox, MessageToast, formatter) {
     "use strict";
 
     return Controller.extend("backorder.app.backorderui.controller.BackOrders", {
 
+        formatter: formatter,
+
         onInit: function () {
             this.getView().setModel(new JSONModel({
-                entries:      [],
-                currentPage:  0,
-                pageSize:     12,
-                totalPages:   0,
+                entries: [],
+                currentPage: 0,
+                pageSize: 12,
+                totalPages: 0,
                 totalResults: 0
             }), "results");
 
             this._currentPage = 0;
+            this._loadAll();
+        },
+
+        _loadAll: async function () {
+            try {
+                const res = await fetch("/odata/v4/back-order/searchBackOrders", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        soldTo: "",
+                        shipTo: [],
+                        search: "",
+                        searchBy: "",
+                        fromDate: "",
+                        toDate: "",
+                        status: [],
+                        sort: "orderDate",
+                        dir: "desc",
+                        currentPage: 0,
+                        pageSize: 12,
+                        orderType: []
+                    })
+                });
+
+                const data = await res.json();
+                const result = data.value || data;
+
+                this.getView().setModel(new JSONModel({
+                    entries: result.entries || [],
+                    currentPage: result.currentPage ?? 0,
+                    pageSize: result.pageSize ?? 12,
+                    totalPages: result.totalPages ?? 0,
+                    totalResults: result.totalResults ?? 0
+                }), "results");
+
+            } catch (err) {
+                console.error("Failed to load all items:", err);
+            }
         },
 
         onSearch: function () {
@@ -34,17 +75,20 @@ sap.ui.define([
             this.byId("fromDatePicker").setValue("");
             this.byId("toDatePicker").setValue("");
             this.byId("pageSizeInput").setValue(12);
+            this.byId("shipToSelect").destroyItems();
+            this.byId("shipToSelect").setSelectedKeys([]);
             this._currentPage = 0;
 
             this.getView().setModel(new JSONModel({
-                entries:      [],
-                currentPage:  0,
-                pageSize:     12,
-                totalPages:   0,
+                entries: [],
+                currentPage: 0,
+                pageSize: 12,
+                totalPages: 0,
                 totalResults: 0
             }), "results");
 
             MessageToast.show("Filters reset");
+            this._loadAll();
         },
 
         onNextPage: function () {
@@ -60,14 +104,15 @@ sap.ui.define([
         },
 
         _executeSearch: async function () {
-            const soldTo   = this.byId("soldToInput").getValue();
-            const search   = this.byId("searchInput").getValue();
+            const soldTo = this.byId("soldToInput").getValue();
+            const search = this.byId("searchInput").getValue();
             const searchBy = this.byId("searchBySelect").getSelectedKey();
-            const sort     = this.byId("sortSelect").getSelectedKey();
-            const dir      = this.byId("dirSelect").getSelectedKey();
+            const sort = this.byId("sortSelect").getSelectedKey();
+            const dir = this.byId("dirSelect").getSelectedKey();
             const fromDate = this.byId("fromDatePicker").getValue();
-            const toDate   = this.byId("toDatePicker").getValue();
-            const pageSize = parseInt(this.byId("pageSizeInput").getValue());
+            const toDate = this.byId("toDatePicker").getValue();
+            const pageSizeInput = this.byId("pageSizeInput");
+            const pageSize = pageSizeInput ? parseInt(pageSizeInput.getValue()) : 12;
 
             if (!soldTo) {
                 MessageBox.warning("Please enter a Sold To customer number");
@@ -76,24 +121,24 @@ sap.ui.define([
 
             const body = {
                 soldTo,
-                shipTo:      [],
+                shipTo: [],
                 search,
                 searchBy,
                 fromDate,
                 toDate,
-                status:      [],
+                status: [],
                 sort,
                 dir,
                 currentPage: this._currentPage,
                 pageSize,
-                orderType:   []
+                orderType: []
             };
 
             try {
                 const res = await fetch("/odata/v4/back-order/searchBackOrders", {
-                    method:  "POST",
+                    method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body:    JSON.stringify(body)
+                    body: JSON.stringify(body)
                 });
 
                 if (!res.ok) {
@@ -106,11 +151,11 @@ sap.ui.define([
                 const result = data.value || data;
 
                 this.getView().setModel(new JSONModel({
-                    entries:      result.entries      || [],
-                    currentPage:  result.currentPage  ?? 0,
-                    pageSize:     result.pageSize      ?? 12,
-                    totalPages:   result.totalPages    ?? 0,
-                    totalResults: result.totalResults  ?? 0
+                    entries: result.entries || [],
+                    currentPage: result.currentPage ?? 0,
+                    pageSize: result.pageSize ?? 12,
+                    totalPages: result.totalPages ?? 0,
+                    totalResults: result.totalResults ?? 0
                 }), "results");
 
                 if (result.totalResults === 0) {
@@ -126,18 +171,23 @@ sap.ui.define([
 
         onItemPress: function (oEvent) {
             const oItem = oEvent.getSource();
-            const oCtx  = oItem.getBindingContext("results");
-            const item  = oCtx.getObject();
+            const oCtx = oItem.getBindingContext("results");
+            const item = oCtx.getObject();
+
+            const formattedDate = this.formatter.formatDate(item.orderDate);
 
             MessageBox.information(
-                "Product Code: " + item.productCode + "\n" +
-                "ERP Order No: " + item.erpOrderNumber + "\n" +
-                "Order Date: "   + item.orderDate + "\n" +
-                "Quantity: "     + item.quantity + "\n" +
-                "Dealer Price: " + item.dealerPrice + " " + item.currency + "\n" +
-                "Total Price: "  + item.totalPrice + " " + item.currency + "\n" +
-                "Status: "       + item.orderStatus,
-                { title: "BackOrder Item Details" }
+                "Product Code:   " + item.productCode + "\n" +
+                "ERP Order No:   " + item.erpOrderNumber + "\n" +
+                "Order Date:     " + formattedDate + "\n" +
+                "Quantity:       " + item.quantity + "\n" +
+                "Dealer Price:   " + item.dealerPrice + " " + item.currency + "\n" +
+                "Total Price:    " + item.totalPrice + " " + item.currency + "\n" +
+                "Status:         " + (
+                    item.orderStatus === "3" ? "Completed" :
+                        item.orderStatus === "2" ? "In Progress" : "Open"
+                ),
+                { title: "BackOrder Item — " + item.productCode }
             );
         }
     });
