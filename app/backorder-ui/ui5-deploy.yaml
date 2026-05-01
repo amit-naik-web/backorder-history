@@ -20,3 +20,4 @@ builder:
         relativePaths: true
         additionalFiles:
           - xs-app.json
+          - package.json

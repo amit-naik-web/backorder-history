@@ -1,0 +1,394 @@
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:49:34.264690] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance be7a121f-acac-4380-651c-db48 (STDOUT, CELL)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:49:34.527154] Exit status 137 (STDOUT, PROXY)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:49:36.117211] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance be7a121f-acac-4380-651c-db48 (STDOUT, CELL)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:57:47.523829] 2026/05/01 11:57:47 [error] 55#0: *23 directory index of "/home/vcap/app/public/" is forbidden, client: 10.137.66.32, server: localhost, request: "GET / HTTP/1.1", host: "994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:57:47.523882] 103.169.178.28, 10.0.72.0 - - - [01/May/2026:11:57:47 +0000] "GET / HTTP/1.1" 403 548 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:57:47.524122] 994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com - [2026-05-01T11:57:47.512568058Z] "GET / HTTP/2.0" 403 0 548 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" "10.0.72.0:38330" "10.32.1.6:61075" x_forwarded_for:"103.169.178.28, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"bf5a28ca-aa01-470f-66f1-8a192063aaa7" response_time:0.011443 gorouter_time:0.000062 app_id:"876be8d1-9913-44ab-8f26-ed3ed370fa88" app_index:"0" instance_id:"adbd3b52-dff9-4819-4bbe-a360" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000984 tls_time:0.008620 backend_time:0.011381 local_address:"10.0.65.8:48012" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"912a0835-1f36-4e0c-8d9a-d2d792a473d6-69F4953B-197871B" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"103.169.178.28" x_request_id:"-" x_b3_traceid:"bf5a28caaa01470f66f18a192063aaa7" x_b3_spanid:"66f18a192063aaa7" x_b3_parentspanid:"-" b3:"bf5a28caaa01470f66f18a192063aaa7-66f18a192063aaa7" (STDOUT, RTR)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:58:40.345374] 2026/05/01 11:58:40 [error] 55#0: *25 directory index of "/home/vcap/app/public/" is forbidden, client: 10.137.66.32, server: localhost, request: "GET / HTTP/1.1", host: "994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:58:40.345447] 103.169.178.28, 10.0.72.0 - - - [01/May/2026:11:58:40 +0000] "GET / HTTP/1.1" 403 548 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:58:40.345622] 994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com - [2026-05-01T11:58:40.334778771Z] "GET / HTTP/2.0" 403 0 548 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" "10.0.72.0:62206" "10.32.1.6:61075" x_forwarded_for:"103.169.178.28, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"57f55c8c-dede-4d30-489a-f2fd4e399424" response_time:0.010710 gorouter_time:0.000064 app_id:"876be8d1-9913-44ab-8f26-ed3ed370fa88" app_index:"0" instance_id:"adbd3b52-dff9-4819-4bbe-a360" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001066 tls_time:0.008171 backend_time:0.010646 local_address:"10.0.65.8:4666" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"912a0835-1f36-4e0c-8d9a-d2d792a473d6-69F4953B-197DA03" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"103.169.178.28" x_request_id:"-" x_b3_traceid:"57f55c8cdede4d30489af2fd4e399424" x_b3_spanid:"489af2fd4e399424" x_b3_parentspanid:"-" b3:"57f55c8cdede4d30489af2fd4e399424-489af2fd4e399424" (STDOUT, RTR)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:33.335827] 103.169.178.28, 10.0.72.0 - - - [01/May/2026:11:59:33 +0000] "GET / HTTP/1.1" 403 548 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:33.335837] 2026/05/01 11:59:33 [error] 55#0: *28 directory index of "/home/vcap/app/public/" is forbidden, client: 10.137.66.32, server: localhost, request: "GET / HTTP/1.1", host: "994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:33.336043] 994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com - [2026-05-01T11:59:33.325830868Z] "GET / HTTP/2.0" 403 0 548 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" "10.0.72.0:39456" "10.32.1.6:61075" x_forwarded_for:"103.169.178.28, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"f720bbaa-1c97-4371-4120-3b47345f5cbd" response_time:0.010098 gorouter_time:0.000064 app_id:"876be8d1-9913-44ab-8f26-ed3ed370fa88" app_index:"0" instance_id:"adbd3b52-dff9-4819-4bbe-a360" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000876 tls_time:0.007829 backend_time:0.010034 local_address:"10.0.65.9:5600" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"912a0835-1f36-4e0c-8d9a-d2d792a473d6-69F49570-198388C" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"103.169.178.28" x_request_id:"-" x_b3_traceid:"f720bbaa1c97437141203b47345f5cbd" x_b3_spanid:"41203b47345f5cbd" x_b3_parentspanid:"-" b3:"f720bbaa1c97437141203b47345f5cbd-41203b47345f5cbd" (STDOUT, RTR)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:36.161150] 2026/05/01 11:59:36 [error] 55#0: *29 directory index of "/home/vcap/app/public/" is forbidden, client: 10.137.66.32, server: localhost, request: "GET / HTTP/1.1", host: "994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:36.161226] 103.169.178.28, 10.0.72.0 - - - [01/May/2026:11:59:36 +0000] "GET / HTTP/1.1" 403 548 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T11:59:36.161446] 994ae882trial-dev-backorder-history-app.cfapps.us10-001.hana.ondemand.com - [2026-05-01T11:59:36.150127436Z] "GET / HTTP/2.0" 403 0 548 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" "10.0.72.0:38310" "10.32.1.6:61075" x_forwarded_for:"103.169.178.28, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"855d6582-8e99-4fc0-437d-6ebfc64119d4" response_time:0.011208 gorouter_time:0.000076 app_id:"876be8d1-9913-44ab-8f26-ed3ed370fa88" app_index:"0" instance_id:"adbd3b52-dff9-4819-4bbe-a360" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000865 tls_time:0.008636 backend_time:0.011132 local_address:"10.0.65.8:34180" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"912a0835-1f36-4e0c-8d9a-d2d792a473d6-69F495A5-1983DC5" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"103.169.178.28" x_request_id:"-" x_b3_traceid:"855d65828e994fc0437d6ebfc64119d4" x_b3_spanid:"437d6ebfc64119d4" x_b3_parentspanid:"-" b3:"855d65828e994fc0437d6ebfc64119d4-437d6ebfc64119d4" (STDOUT, RTR)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:51.971355] Updated app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 ({"metadata"=>{"annotations"=>{"mta_id"=>"backorder-history", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"backorder-history-app\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[\"backorder-history-xsuaa\"]"}, "labels"=>{"mta_id"=>"2a8116cd5454191867b4ccd652598f0d"}}}) (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:52.169329] Updated app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 ({"lifecycle"=>{"data"=>{"buildpacks"=>[]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:52.264002] Updating process: "web" (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:52.388972] Scaling process: "web" (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:52.504869] Scaling process: "web" (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:03:52.616942] Updated app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:08.820712] Uploading app package for app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:09.137337] Updated app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.013713] Stopping app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.058494] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance adbd3b52-dff9-4819-4bbe-a360 (STDOUT, CELL)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.211985] Creating build for app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.763371] Downloading java_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.763371] Downloading zero_trust_sidecar_buildpack_1_15... (STDOUT, STG)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.763399] Downloading sap_java_buildpack_jakarta... (STDOUT, STG)#
+#2026 05 01 12:04:28.782#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.763442] Downloading sap_java_buildpack_jakarta_2_56... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.763487] Downloading python_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.806653] Downloaded python_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.806692] Downloading php_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.810173] Downloaded java_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.810195] Downloading nginx_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.827583] Downloaded nginx_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.827612] Downloading binary_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.845885] Downloaded binary_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.845926] Downloading zero_trust_sidecar_buildpack_1_13... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.866635] Downloaded php_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.866670] Downloading zero_trust_sidecar_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.886082] Downloaded zero_trust_sidecar_buildpack_1_13 (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.886114] Downloading sap_java_buildpack_jakarta_2_55... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.905954] Downloaded zero_trust_sidecar_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.906021] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.925569] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.954441] Downloading go_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.977170] Downloaded go_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:19.977209] Downloading staticfile_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:20.560870] Downloaded staticfile_buildpack (13.2M) (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:20.560921] Downloading sap_java_buildpack_jakarta_2_53... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:21.468052] Downloaded zero_trust_sidecar_buildpack_1_15 (31.1M) (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:21.468111] Downloading zero_trust_sidecar_buildpack_1_14... (STDOUT, STG)#
+#2026 05 01 12:04:28.783#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10541#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:23.079427] Downloaded zero_trust_sidecar_buildpack_1_14 (31.1M) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:28.679576] Downloaded sap_java_buildpack_jakarta (356.6M) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:29.510811] Downloaded sap_java_buildpack_jakarta_2_55 (356.6M) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:30.330342] Downloaded sap_java_buildpack_jakarta_2_56 (356.6M) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:31.641410] Downloaded sap_java_buildpack_jakarta_2_53 (356.4M) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:31.641514] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:32.473943] Security group rules were updated (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:32.576265] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:33.712037] Downloading app package... (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:33.712077] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:33.777097] Downloaded app package (11.3K) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:33.821894] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:34.382106] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:34.383569] -----> Bootstrapping python (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:34.383630] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 05 01 12:04:38.739#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26793#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:34.383669] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.850#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.740597] -----> Installing binaries (STDOUT, STG)#
+#2026 05 01 12:04:48.850#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.740832] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 05 01 12:04:48.850#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.740890] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.741086] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.741094] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:38.741386] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.376048] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.376074] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.376091] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.720268] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.720291] -----> Creating runtime environment (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722213] [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722229] Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722233] NODE_ENV=production (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722235] NODE_HOME=/tmp/contents3211809531/deps/0/node (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722249] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722252] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722253] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722257] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722345] -----> Building dependencies (STDOUT, STG)#
+#2026 05 01 12:04:48.851#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10545#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:04:41.722353] Installing node modules (package.json) (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.748186] added 207 packages, and audited 208 packages in 20s (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.748532] 31 packages are looking for funding (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.748551] run `npm fund` for details (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758928] 3 moderate severity vulnerabilities (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758954] To address all issues (including breaking changes), run: (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758958] npm audit fix --force (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758966] Run `npm audit` for details. (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758970] npm notice (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758975] npm notice New major version of npm available! 10.9.4 -> 11.13.0 (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758981] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0 (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758984] npm notice To update run: npm install -g npm@11.13.0 (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:01.758986] npm notice (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:02.564386] [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:02.564414] See: https://github.com/npm/npm/issues/7494 (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:02.592099] [31;1m**WARNING**[0m This app may not specify any way to start a node process (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:02.592126] See: https://docs.cloudfoundry.org/buildpacks/node/node-tips.html#start (STDOUT, STG)#
+#2026 05 01 12:05:09.063#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10560#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:02.600476] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:17.378595] Exit status 0 (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:17.378652] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:17.378690] Uploading droplet... (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:17.378867] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:17.919196] Uploaded build artifacts cache (37.6M) (STDOUT, STG)#
+#2026 05 01 12:05:18.952#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26822#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:18.203418] Creating droplet for app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:19.284304] Uploaded droplet (62.8M) (STDOUT, STG)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:19.305970] Uploading complete (STDOUT, STG)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:20.313893] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, STG)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:20.313934] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, STG)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:20.367891] Staging complete for build e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, API)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:23.415662] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance e029016b-07b7-46f3-9458-8803078bd36f (STDOUT, STG)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:25.462479] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance adbd3b52-dff9-4819-4bbe-a360 (STDOUT, CELL)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:26.073223] Exit status 137 (STDOUT, PROXY)#
+#2026 05 01 12:05:29.034#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26830#
+[PollStageAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:27.421917] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance adbd3b52-dff9-4819-4bbe-a360 (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:29.105189] Updated app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 ({:droplet_guid=>"2c6a506d-7599-47e4-a7c1-0041ada37957"}) (STDOUT, API)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:29.333836] Creating revision for app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:29.376906] Starting app with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 (STDOUT, API)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:29.600662] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 30e5504f-c361-40e1-4b97-b114 (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:30.408532] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:30.504384] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 30e5504f-c361-40e1-4b97-b114 (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:31.078050] Downloading droplet... (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:35.750165] Downloaded droplet (62.8M) (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:35.750356] Starting health monitoring of container (STDOUT, CELL)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:35.879507] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.152961] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645409] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645441] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645445] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645449] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645451] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645453] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645455] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.645458] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.647132] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-05-01T12_05_36_255Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:39.067#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26836#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:36.722816] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.291142] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 30e5504f-c361-40e1-4b97-b114 (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.291181] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 30e5504f-c361-40e1-4b97-b114 (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.306298] Process has crashed with type: "web" (STDOUT, API)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.320330] App instance exited with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 payload: {"instance"=>"30e5504f-c361-40e1-4b97-b114", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1777637143271176734, "version"=>"9b95dbba-37d9-4d6f-a52e-abadd8a82466"} (STDOUT, API)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.398534] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 9e253aa6-a2e6-448f-6db6-3903 (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:43.456885] Exit status 137 (STDOUT, PROXY)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:44.189648] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:44.469394] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 9e253aa6-a2e6-448f-6db6-3903 (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:45.132377] Downloading droplet... (STDOUT, CELL)#
+#2026 05 01 12:05:49.059#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26844#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:46.088957] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 30e5504f-c361-40e1-4b97-b114 (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:49.470985] Downloaded droplet (62.8M) (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:49.471112] Starting health monitoring of container (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:49.607772] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:49.844693] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338028] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338051] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338055] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338059] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338062] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338065] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338068] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.338071] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.339273] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-05-01T12_05_49_953Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:50.402341] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:56.897719] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 9e253aa6-a2e6-448f-6db6-3903 (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:56.897756] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 9e253aa6-a2e6-448f-6db6-3903 (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:56.906370] Process has crashed with type: "web" (STDOUT, API)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:56.919596] App instance exited with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 payload: {"instance"=>"9e253aa6-a2e6-448f-6db6-3903", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1777637156879850877, "version"=>"9b95dbba-37d9-4d6f-a52e-abadd8a82466"} (STDOUT, API)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:57.030755] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance f2e31a48-7b2f-4c1a-6974-9ff7 (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:57.085080] Exit status 137 (STDOUT, PROXY)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:57.892260] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:05:59.085#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26854#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:58.206942] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance f2e31a48-7b2f-4c1a-6974-9ff7 (STDOUT, CELL)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:59.497292] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 9e253aa6-a2e6-448f-6db6-3903 (STDOUT, CELL)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:05:59.649983] Downloading droplet... (STDOUT, CELL)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:04.484120] Downloaded droplet (62.8M) (STDOUT, CELL)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:04.484287] Starting health monitoring of container (STDOUT, CELL)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:04.614945] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:04.869759] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363483] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363511] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363515] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363519] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363523] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363526] npm error (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363529] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.363532] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.364584] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-05-01T12_06_04_968Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 05 01 12:06:09.151#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-26862#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:05.434474] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:12.990967] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance f2e31a48-7b2f-4c1a-6974-9ff7 (STDOUT, CELL)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:12.991010] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance f2e31a48-7b2f-4c1a-6974-9ff7 (STDOUT, CELL)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:13.009448] Process has crashed with type: "web" (STDOUT, API)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:13.022172] App instance exited with guid 876be8d1-9913-44ab-8f26-ed3ed370fa88 payload: {"instance"=>"f2e31a48-7b2f-4c1a-6974-9ff7", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1777637172986236128, "version"=>"9b95dbba-37d9-4d6f-a52e-abadd8a82466"} (STDOUT, API)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:13.196268] Exit status 137 (STDOUT, PROXY)#
+#2026 05 01 12:06:19.400#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-app#flowable-async-job-executor-thread-10986#
+[PollStartAppStatusExecution] 876be8d1-9913-44ab-8f26-ed3ed370fa88 [2026-05-01T12:06:15.655313] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance f2e31a48-7b2f-4c1a-6974-9ff7 (STDOUT, CELL)#

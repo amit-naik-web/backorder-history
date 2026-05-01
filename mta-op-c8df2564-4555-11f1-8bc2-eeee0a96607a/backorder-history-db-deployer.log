@@ -1,0 +1,1068 @@
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:01.065515] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:01.151169] Updating process: "web" (STDOUT, API)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:17.327173] Uploading app package for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:17.543766] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.372910] Creating build for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.746933] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.792172] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.792278] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:28.568392] Security group rules were updated (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:28.653281] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.819423] Downloading app package... (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.819713] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.917878] Downloaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.230925] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.340350] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441084] -----> Bootstrapping python (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441116] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441133] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928604] -----> Installing binaries (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928830] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928848] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928863] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 05 01 12:04:18.697#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.929164] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.929337] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685583] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685611] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685618] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.072748] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.073084] -----> Creating runtime environment (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076667] NODE_ENV=production (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076763] NODE_HOME=/tmp/contents3654716294/deps/0/node (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076781] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076822] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076832] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076874] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076915] -----> Building dependencies (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076975] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.077016] Rebuilding any native modules (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.720425] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.799419] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308020] up to date in 421ms (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308566] 4 packages are looking for funding (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308736] run `npm fund` for details (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:40.056294] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378495] Exit status 0 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378549] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378591] Uploading droplet... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378614] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.413277] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:50.284024] Creating droplet for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:52.356157] Uploaded droplet (58.4M) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:52.375423] Uploading complete (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.112256] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.112299] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.166768] Staging complete for build 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:55.888682] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:57.321406] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({:droplet_guid=>"ea90f993-64ab-45e3-933d-47fa028e66b8"}) (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:57.942944] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:58.752641] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:59.084176] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.033557] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.232864] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.681213] > start (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.681245] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.827863] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828039] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828054] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828057] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828060] "name": "backorder-db", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828063] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828066] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828068] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828071] "schema": "A811A85E0AB14A8FB8293A804FCBE2A0", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828073] "database_id": "6703edeb-85df-4a05-8b2e-2690704f9dbc", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828076] "user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_RT", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828085] "hdi_user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_DT" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828086] }, (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828089] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828091] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828093] "database", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828095] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828097] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828099] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828101] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828103] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.213732] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1774346768 (4.0.0.0), cloud version 2026.2.6, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.215196] Deployment started at 2026-05-01 11:49:05 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.215516] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.234334] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.234721] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238132] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238145] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238193] 15 files collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238245] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238263] Target service: backorder-db (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422117] Previous build with request ID 212 finished at 2026-05-01T11:44:55.847 with status Rolled back and message: Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422158] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422283] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422425] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422532] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425166] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425405] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425519] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.491602] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 66ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.491628] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.638609] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 147ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.638638] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.847780] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011535] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011623] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011828] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.188775] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.188804] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 550ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189136] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189149] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189171] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189318] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189534] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189632] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189652] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189718] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608736] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608759] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608869] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608881] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608885] Migrating libraries... ok (0s 27ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608915] Making... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608931] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608934] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609257] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609503] Preparing the make transaction... ok (0s 20ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609511] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609589] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609697] Expanding... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609711] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609715] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609721] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609727] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609730] Calculating dependencies... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609740] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609782] Making... ok (0s 134ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609785] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609788] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609845] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok (0s 197ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.610164] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 420ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.610464] No default-access-role handling needed; global role "A811A85E0AB14A8FB8293A804FCBE2A0::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611122] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611526] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611733] Deployment to container A811A85E0AB14A8FB8293A804FCBE2A0 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.612183] Deployment ended at 2026-05-01 11:49:06 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.612563] (1s 891ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626680] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626708] npm notice New minor version of npm available! 11.6.2 -> 11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626712] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626714] npm notice To update run: npm install -g npm@11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626718] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.694148] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:07.456416] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:07.456499] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:10.278977] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:49.270656] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:49.358060] Updating process: "web" (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:58.765129] Uploading app package for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:58.962433] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:08.845697] Creating build for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.374896] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.421307] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.421409] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:10.209973] Security group rules were updated (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:10.558787] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.131694] Downloading app package... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.131708] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.213834] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.545358] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.660647] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774301] -----> Bootstrapping python (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774391] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774442] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006242] -----> Installing binaries (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006456] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006472] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006559] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006730] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 05 01 12:04:18.698#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26775#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.007023] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772324] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772409] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772459] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.149707] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.149747] -----> Creating runtime environment (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151750] NODE_ENV=production (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151775] NODE_HOME=/tmp/contents3303369413/deps/0/node (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151780] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151782] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151789] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151793] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151824] -----> Building dependencies (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151831] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151842] Rebuilding any native modules (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.793295] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.867377] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.377737] up to date in 427ms (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.378017] 4 packages are looking for funding (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.378158] run `npm fund` for details (STDOUT, STG)#
+#2026 05 01 12:04:28.727#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26787#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:21.239290] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157717] Exit status 0 (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157784] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157821] Uploading droplet... (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157914] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.176158] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.910206] Creating droplet for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:35.977780] Uploaded droplet (58.4M) (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:35.998885] Uploading complete (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.478037] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.478086] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:38.764#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26791#
+[PollStageAppStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.535287] Staging complete for build 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:01.065515] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:01.151169] Updating process: "web" (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:17.327173] Uploading app package for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:17.543766] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.372910] Creating build for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.746933] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.792172] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:27.792278] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:28.568392] Security group rules were updated (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:28.653281] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.819423] Downloading app package... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.819713] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:29.917878] Downloaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.230925] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.340350] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441084] -----> Bootstrapping python (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441116] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:30.441133] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928604] -----> Installing binaries (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928830] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928848] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.928863] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.929164] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:34.929337] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685583] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685611] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:37.685618] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.072748] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.073084] -----> Creating runtime environment (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076667] NODE_ENV=production (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076763] NODE_HOME=/tmp/contents3654716294/deps/0/node (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076781] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076822] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076832] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076874] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076915] -----> Building dependencies (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.076975] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.077016] Rebuilding any native modules (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.720425] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:38.799419] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308020] up to date in 421ms (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308566] 4 packages are looking for funding (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:39.308736] run `npm fund` for details (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:40.056294] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378495] Exit status 0 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378549] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378591] Uploading droplet... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.378614] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:49.413277] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:50.284024] Creating droplet for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:52.356157] Uploaded droplet (58.4M) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:52.375423] Uploading complete (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.112256] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.112299] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:53.166768] Staging complete for build 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:55.888682] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 987e31b0-771c-4336-966f-ac1e14ff7202 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:57.321406] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({:droplet_guid=>"ea90f993-64ab-45e3-933d-47fa028e66b8"}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:57.942944] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:58.752641] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:48:59.084176] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.033557] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.232864] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.681213] > start (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.681245] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.827863] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828039] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828054] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828057] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828060] "name": "backorder-db", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828063] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828066] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828068] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828071] "schema": "A811A85E0AB14A8FB8293A804FCBE2A0", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828073] "database_id": "6703edeb-85df-4a05-8b2e-2690704f9dbc", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828076] "user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_RT", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828085] "hdi_user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_DT" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828086] }, (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828089] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828091] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828093] "database", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828095] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828097] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828099] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828101] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:04.828103] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.213732] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1774346768 (4.0.0.0), cloud version 2026.2.6, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.215196] Deployment started at 2026-05-01 11:49:05 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.215516] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.234334] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.234721] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238132] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238145] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238193] 15 files collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238245] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.238263] Target service: backorder-db (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422117] Previous build with request ID 212 finished at 2026-05-01T11:44:55.847 with status Rolled back and message: Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422158] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422283] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422425] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.422532] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425166] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425405] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.425519] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.491602] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 66ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.491628] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.638609] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 147ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.638638] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:05.847780] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011535] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011623] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.011828] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.188775] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.188804] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 550ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189136] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189149] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189171] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189318] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189534] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189632] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189652] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.189718] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608736] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608759] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608869] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608881] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608885] Migrating libraries... ok (0s 27ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608915] Making... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608931] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.608934] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609257] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609503] Preparing the make transaction... ok (0s 20ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609511] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609589] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609697] Expanding... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609711] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609715] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609721] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609727] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609730] Calculating dependencies... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609740] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609782] Making... ok (0s 134ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609785] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609788] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.609845] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok (0s 197ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.610164] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 420ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.610464] No default-access-role handling needed; global role "A811A85E0AB14A8FB8293A804FCBE2A0::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611122] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611526] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.611733] Deployment to container A811A85E0AB14A8FB8293A804FCBE2A0 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.612183] Deployment ended at 2026-05-01 11:49:06 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.612563] (1s 891ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626680] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626708] npm notice New minor version of npm available! 11.6.2 -> 11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626712] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626714] npm notice To update run: npm install -g npm@11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.626718] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:06.694148] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:07.456416] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:07.456499] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T11:49:10.278977] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 4b816757-1ca2-4134-9034-ea1f5fcd8ab2 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:49.270656] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:49.358060] Updating process: "web" (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:58.765129] Uploading app package for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:03:58.962433] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:08.845697] Creating build for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.374896] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.421307] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:09.421409] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:10.209973] Security group rules were updated (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:10.558787] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.131694] Downloading app package... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.131708] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.213834] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.545358] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.660647] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774301] -----> Bootstrapping python (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774391] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:11.774442] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006242] -----> Installing binaries (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006456] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006472] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006559] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.006730] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:16.007023] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772324] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772409] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:18.772459] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.149707] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.149747] -----> Creating runtime environment (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151750] NODE_ENV=production (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151775] NODE_HOME=/tmp/contents3303369413/deps/0/node (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151780] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151782] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151789] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151793] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151824] -----> Building dependencies (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151831] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.151842] Rebuilding any native modules (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.793295] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:19.867377] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.377737] up to date in 427ms (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.378017] 4 packages are looking for funding (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:20.378158] run `npm fund` for details (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:21.239290] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157717] Exit status 0 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157784] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157821] Uploading droplet... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.157914] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.176158] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:31.910206] Creating droplet for app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:35.977780] Uploaded droplet (58.4M) (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:35.998885] Uploading complete (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.478037] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.478086] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:36.535287] Staging complete for build 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:38.826628] Updated app with guid f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 ({:droplet_guid=>"dc08eac3-b42c-44cb-ae18-8de31298c686"}) (STDOUT, API)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:39.534168] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance a9811478-8d23-4e67-ae08-cffb09309541 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:39.538727] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 372dfc86-e929-4494-9ef3-9c731c1763b3 (STDOUT, STG)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:40.291178] Security group rules were updated (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:40.368042] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance a9811478-8d23-4e67-ae08-cffb09309541 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:44.525494] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:44.738359] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.215108] > start (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.215137] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392206] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392458] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392473] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392476] { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392484] "name": "backorder-db", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392492] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392494] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392496] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392499] "schema": "A811A85E0AB14A8FB8293A804FCBE2A0", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392501] "database_id": "6703edeb-85df-4a05-8b2e-2690704f9dbc", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392505] "user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_RT", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392510] "hdi_user": "A811A85E0AB14A8FB8293A804FCBE2A0_CW6SKN3BW5IEEY3QCYIIZWSV7_DT" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392512] }, (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392514] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392517] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392520] "database", (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392522] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392528] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392530] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392536] ] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.392538] } (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.772420] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1774346768 (4.0.0.0), cloud version 2026.2.6, node version 24.13.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.772629] Deployment started at 2026-05-01 12:04:45 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.773062] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.793254] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.793617] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.799299] Collecting files... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.799368] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.799469] 15 files collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.799510] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.799606] Target service: backorder-db (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.984876] Previous build with request ID 217 finished at 2026-05-01T11:49:06.568 with status Rolled back and message: Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.984998] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.985173] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.985343] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.985471] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.988161] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.988396] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:45.988531] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.055697] Connecting to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 67ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.055728] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.182330] Locking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 127ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.182358] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.418551] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.592981] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.593226] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.593497] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.766934] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.767169] Synchronizing files with the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 585ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.767732] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.767875] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.768026] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.768248] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.768605] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.768829] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.768981] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:46.769134] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.138778] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.138808] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.138815] Disabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 13ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.138831] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.139550] Migrating libraries... ok (0s 18ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.139579] Making... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.139617] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.139620] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.139684] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.140957] Preparing the make transaction... ok (0s 13ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141008] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141079] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141118] Expanding... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141199] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141233] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141299] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141333] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141369] Calculating dependencies... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141379] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141432] Making... ok (0s 79ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141488] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141535] Enabling table replication for the container schema "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141548] Starting make in the container "A811A85E0AB14A8FB8293A804FCBE2A0" with 0 files to deploy, 0 files to undeploy... ok (0s 129ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.141943] Deploying to the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 373ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.142244] No default-access-role handling needed; global role "A811A85E0AB14A8FB8293A804FCBE2A0::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.142351] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.142782] Unlocking the container "A811A85E0AB14A8FB8293A804FCBE2A0"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.143023] Deployment to container A811A85E0AB14A8FB8293A804FCBE2A0 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.143575] Deployment ended at 2026-05-01 12:04:47 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.143951] (1s 884ms) (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.158120] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.158152] npm notice New minor version of npm available! 11.6.2 -> 11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.158162] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.158165] npm notice To update run: npm install -g npm@11.13.0 (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.158166] npm notice (STDERR, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.228582] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.864599] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance a9811478-8d23-4e67-ae08-cffb09309541 (STDOUT, CELL)#
+#2026 05 01 12:04:48.822#Z#DEBUG#c8df2564-4555-11f1-8bc2-eeee0a96607a.backorder-history-db-deployer#flowable-async-job-executor-thread-26798#
+[PollExecuteTaskStatusExecution] f3a667cb-a7f1-4bd3-8a4f-472dbd3ae857 [2026-05-01T12:04:47.864636] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance a9811478-8d23-4e67-ae08-cffb09309541 (STDOUT, CELL)#
