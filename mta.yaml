@@ -25,6 +25,7 @@ modules:
           srv-url: ${default-url}
     requires:
       - name: backorder-db
+      - name: backorder-history-xsuaa
 
   - name: backorder-history-db-deployer
     type: hdb
@@ -35,14 +36,19 @@ modules:
       - name: backorder-db
 
   - name: backorder-history-app
-    type: staticfile
+    type: approuter.nodejs
     path: app/backorder-ui
     parameters:
-      buildpack: staticfile_buildpack
-    build-parameters:
-      no-source: false
+      disk-quota: 256M
+      memory: 128M
     requires:
       - name: srv-api
+        group: destinations
+        properties:
+          name: backorder-history-srv
+          url: ~{srv-url}
+          forwardAuthToken: true
+      - name: backorder-history-xsuaa
 
 resources:
   - name: backorder-db
@@ -51,3 +57,10 @@ resources:
       service: hana
       service-plan: hdi-shared
       existing-service: dev_project-db
+
+  - name: backorder-history-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
