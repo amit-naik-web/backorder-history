@@ -1,41 +1,4 @@
-_schema-version: 3.3.0
-ID: backorder-history
-description: BackOrder History App
-version: 1.0.0
-parameters:
-  enable-parallel-deployments: true
-build-parameters:
-  before-all:
-    - builder: custom
-      commands:
-        - npm ci
-        - npx cds build --production
-modules:
-  - name: backorder-history-srv
-    type: nodejs
-    path: gen/srv
-    parameters:
-      buildpack: nodejs_buildpack
-      instances: 1
-    build-parameters:
-      builder: npm-ci
-    provides:
-      - name: srv-api
-        properties:
-          srv-url: ${default-url}
-    requires:
-      - name: backorder-db
-      - name: backorder-history-xsuaa
-
-  - name: backorder-history-db-deployer
-    type: hdb
-    path: gen/db
-    parameters:
-      buildpack: nodejs_buildpack
-    requires:
-      - name: backorder-db
-
-  - name: backorder-history-app
+- name: backorder-history-app
     type: approuter.nodejs
     path: app/backorder-ui
     parameters:
@@ -48,19 +11,10 @@ modules:
           name: backorder-history-srv
           url: ~{srv-url}
           forwardAuthToken: true
+      - name: srv-api
+        group: destinations
+        properties:
+          name: ui5cdn
+          url: https://ui5.sap.com
+          forwardAuthToken: false
       - name: backorder-history-xsuaa
-
-resources:
-  - name: backorder-db
-    type: com.sap.xs.hdi-container
-    parameters:
-      service: hana
-      service-plan: hdi-shared
-      existing-service: dev_project-db
-
-  - name: backorder-history-xsuaa
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: xsuaa
-      service-plan: application
-      path: ./xs-security.json
